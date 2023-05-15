@@ -6,5 +6,7 @@
         public double Price { get; set; }
         public bool IsFeatured { get; set; }
         public bool IsAdvanced { get; set; }
+
+        public List<PricingService> PricingServices { get; set; }
     }
 }
